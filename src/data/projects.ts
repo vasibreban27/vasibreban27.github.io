@@ -10,7 +10,7 @@ export const projects: Project[] = [
     {
         title: "ResQ",
         description:
-            "Crisis-response Progressive Web App connecting victims with nearby rescuers when emergency services are unavailable. Features GPS-based mapping and AI-driven medical triage to prioritize requests by urgency and distance.",
+            "Crisis-Response Web App connecting victims with nearby rescuers when emergency services are unavailable. Features GPS-based mapping and AI-driven medical triage to prioritize requests by urgency and distance.",
         tags: ["Vue", "Java Spring", "PostgreSQL", "Leaflet", "Gemini AI"],
         github: "https://github.com/vasibreban27/PoliHack",
         highlight: true,
