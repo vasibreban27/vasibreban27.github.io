@@ -43,7 +43,7 @@ export default function Navbar() {
                 </ul>
 
                 <a
-                    href="/cv.pdf"
+                    href="/BrebanVasile_CV.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-gray-950 transition-all duration-200 px-4 py-1.5 rounded text-sm font-medium"
