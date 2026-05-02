@@ -27,7 +27,7 @@ export default function Hero() {
                 {...fadeUp(0.3)}
                 className="text-4xl md:text-6xl font-bold text-gray-500 mb-6"
             >
-                I build things for the web.
+                I build things for the future.
             </motion.h2>
 
             <motion.p
