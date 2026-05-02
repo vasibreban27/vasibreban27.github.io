@@ -11,9 +11,16 @@ export const projects: Project[] = [
         title: "ResQ",
         description:
             "Crisis-Response Web App connecting victims with nearby rescuers when emergency services are unavailable. Features GPS-based mapping and AI-driven medical triage to prioritize requests by urgency and distance.",
-        tags: ["Vue", "Java Spring", "PostgreSQL", "Leaflet", "Gemini AI"],
+        tags: ["Vue", "Java Spring", "PostgreSQL", "LeafletMap", "Gemini AI"],
         github: "https://github.com/vasibreban27/PoliHack",
         highlight: true,
+    },
+    {
+        title: "Instagram Clone",
+        description:
+            "Team-built full-stack Instagram clone with core social features including posts, likes, and user profiles. Integrated Cloudinary for cloud image storage and Neon for a shared serverless PostgreSQL database.",
+        tags: ["React", "Spring Boot", "PostgreSQL", "Neon", "Cloudinary"],
+        github: "https://github.com/palroland21/Instagram-Clone",
     },
     {
         title: "CabanaAnuca",

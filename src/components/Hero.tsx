@@ -36,11 +36,11 @@ export default function Hero() {
             >
                 Computer Science student at{" "}
                 <span className="text-white font-medium">UTCN Cluj-Napoca</span>,
-                passionate about full-stack development. Currently building with technologies like{" "}
+                passionate about technology, artificial intelligence, and full-stack development.
+                I enjoy building modern, scalable web applications with technologies like{" "}
                 <span className="text-cyan-400 font-medium">
-          React, Typescript, & Spring Boot
-        </span>{" "}
-                as part of the Betfair Romania Development Bootcamp.
+        React, JavaScript/TypeScript, & Spring Boot
+    </span>.
             </motion.p>
 
             <motion.div {...fadeUp(0.5)} className="flex gap-4 flex-wrap">
