@@ -23,6 +23,13 @@ export const projects: Project[] = [
         github: "https://github.com/palroland21/Instagram-Clone",
     },
     {
+        title: "Sign Detection Image Processing",
+        description:
+            "Computer vision project for detecting signs in images using image-processing techniques. Focuses on preprocessing, feature extraction, and visual detection workflows for identifying sign regions from image input.",
+        tags: ["C/C++", "OpenCV", "Computer Vision", "Image Processing"],
+        github: "https://github.com/vasibreban27/Sign-Detection-Image-Processing",
+    },
+    {
         title: "CabanaAnuca",
         description:
             "Full-stack booking platform for a mountain resort. Supports online reservations, Stripe-based payments, automated email confirmations, and an integrated Google Maps view.",
