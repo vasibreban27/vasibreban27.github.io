@@ -20,7 +20,7 @@ export const projects: Project[] = [
         description:
             "Team-built full-stack Instagram clone with core social features including posts, likes, and user profiles. Integrated Cloudinary for cloud image storage and Neon for a shared serverless PostgreSQL database.",
         tags: ["React", "Spring Boot", "PostgreSQL", "Neon", "Cloudinary"],
-        github: "https://github.com/palroland21/Instagram-Clone",
+        github: "https://github.com/vasibreban27/Instagram-Clone",
     },
     {
         title: "Sign Detection Image Processing",
