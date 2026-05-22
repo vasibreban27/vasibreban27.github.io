@@ -18,21 +18,21 @@ export const projects: Project[] = [
     {
         title: "Instagram Clone",
         description:
-            "Team-built full-stack Instagram clone with core social features including posts, likes, and user profiles. Integrated Cloudinary for cloud image storage and Neon for a shared serverless PostgreSQL database.",
+            "Team-built Full Stack Instagram clone built with Spring Boot & React with social features including posts, likes, and user profiles. Integrated Cloudinary for cloud image storage and Neon for a shared serverless PostgreSQL database.",
         tags: ["React", "Spring Boot", "PostgreSQL", "Neon", "Cloudinary"],
         github: "https://github.com/vasibreban27/Instagram-Clone",
     },
     {
         title: "Sign Detection Image Processing",
         description:
-            "Computer vision project for detecting signs in images using image-processing techniques. Focuses on preprocessing, feature extraction, and visual detection workflows for identifying sign regions from image input.",
+            "Computer Vision project for detecting signs in images using image-processing techniques. Focuses on preprocessing, feature extraction, and visual detection workflows for identifying sign regions from image input.",
         tags: ["C/C++", "OpenCV", "Computer Vision", "Image Processing"],
         github: "https://github.com/vasibreban27/Sign-Detection-Image-Processing",
     },
     {
         title: "CabanaAnuca",
         description:
-            "Full-stack booking platform for a mountain resort. Supports online reservations, Stripe-based payments, automated email confirmations, and an integrated Google Maps view.",
+            "Full Stack booking platform for a mountain resort. Supports online reservations, Stripe-based payments, automated email confirmations, and an integrated Google Maps view.",
         tags: ["Spring Boot", "MySQL", "JavaScript", "Stripe", "Google Maps"],
         github: "https://github.com/vasibreban27/CabanaAnuca",
     },
