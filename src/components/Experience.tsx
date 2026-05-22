@@ -4,14 +4,15 @@ const experiences = [
     {
         role: "Full-Stack Development Bootcamp",
         company: "Betfair Romania Development",
-        period: "March 2026 – June 2026",
+        period: "March 2026 – May 2026",
         points: [
-            "Selected participant in a competitive full-stack bootcamp focused on modern web development practices.",
-            "Building full-stack applications using React, Next.js and Node.js, including REST API development with Express.",
-            "Implementing authentication flows using JWT and working with databases in containerized environments via Docker.",
-            "Applying responsive design principles, TypeScript patterns, and component-based architecture.",
+            "Selected participant in a competitive full-stack bootcamp focused on modern web development and full-stack application architecture.",
+            "Built interactive frontend applications using React, TypeScript, JavaScript, HTML, and CSS, with emphasis on reusable components and responsive design.",
+            "Developed backend functionality with Node.js and Express, including REST API routing, request handling, and integration with frontend applications.",
+            "Worked with PostgreSQL in containerized development environments using Docker and Podman, practicing database setup and local service management.",
+            "Applied modern development practices including Git version control, API communication, form handling, validation, and structured project organization.",
         ],
-        tags: ["React", "Next.js", "Node.js", "TypeScript", "Docker", "JWT"],
+        tags: ["React", "Node.js", "Express", "TypeScript", "Docker & Podman", "PostgreSQL"]
     },
 ];
 
