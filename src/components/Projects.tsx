@@ -25,39 +25,17 @@ export default function Projects() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: i * 0.1 }}
                         viewport={{ once: true }}
-                        className={`border rounded-sm p-8 flex flex-col justify-between hover:border-cyan-400/50 transition-all duration-300 group relative overflow-hidden ${
-                            project.highlight
-                                ? "border-cyan-400/30 bg-cyan-500/[0.03]"
-                                : "border-gray-800"
-                        }`}
+                        className="border border-gray-800 rounded-sm p-8 flex flex-col justify-between hover:border-cyan-400/50 transition-all duration-300 group relative overflow-hidden"
                     >
                         {/* Hover glow */}
                         <div className="absolute inset-0 bg-cyan-500/0 group-hover:bg-cyan-500/[0.03] transition-all duration-300" />
 
                         <div className="relative z-10">
-                            {/* Top row */}
-                            <div className="flex items-start justify-between mb-6">
-                                <div className="flex items-center gap-3">
-                                    <svg
-                                        className="text-cyan-400 w-8 h-8"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth={1.5}
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M3 7h18M3 12h18M3 17h18"
-                                        />
-                                    </svg>
-
-                                    {project.highlight && (
-                                        <span className="text-xs font-mono text-cyan-400 border border-cyan-400/30 px-2 py-0.5 rounded-sm">
-                      Featured
-                    </span>
-                                    )}
-                                </div>
+                            {/* GitHub */}
+                            <div className="flex items-center justify-between mb-4">
+                                <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors duration-300">
+                                    {project.title}
+                                </h3>
 
                                 <a
                                     href={project.github}
@@ -76,24 +54,23 @@ export default function Projects() {
                                 </a>
                             </div>
 
-                            <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300">
-                                {project.title}
-                            </h3>
+                            {/*<h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300">*/}
+                            {/*    {project.title}*/}
+                            {/*</h3>*/}
 
                             <p className="text-gray-400 leading-relaxed text-sm">
                                 {project.description}
                             </p>
                         </div>
 
-                        {/* Tags */}
                         <div className="relative z-10 flex flex-wrap gap-2 mt-8">
                             {project.tags.map((tag) => (
                                 <span
                                     key={tag}
                                     className="text-xs font-mono text-gray-500 hover:text-cyan-400 transition-colors duration-200"
                                 >
-                  {tag}
-                </span>
+                                    {tag}
+                                </span>
                             ))}
                         </div>
                     </motion.div>

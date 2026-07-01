@@ -3,7 +3,6 @@ export type Project = {
     description: string;
     tags: string[];
     github: string;
-    highlight?: boolean;
 };
 
 export const projects: Project[] = [
@@ -13,7 +12,6 @@ export const projects: Project[] = [
             "Crisis-Response Web App connecting victims with nearby rescuers when emergency services are unavailable. Features GPS-based mapping and AI-driven medical triage to prioritize requests by urgency and distance.",
         tags: ["Vue", "Java Spring", "PostgreSQL", "LeafletMap", "Gemini AI"],
         github: "https://github.com/vasibreban27/PoliHack",
-        highlight: true,
     },
     {
         title: "Instagram Clone",
