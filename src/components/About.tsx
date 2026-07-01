@@ -65,8 +65,8 @@ export default function About() {
                     className="grid grid-cols-2 gap-4"
                 >
                     {[
-                        { value: "5+", label: "Projects built" },
-                        { value: "6+", label: "Technologies" },
+                        { value: "8+", label: "Projects built" },
+                        { value: "8+", label: "Technologies" },
                         { value: "3rd", label: "Year @ UTCN" },
                         { value: "48h", label: "Hackathon experience" },
                     ].map((stat) => (

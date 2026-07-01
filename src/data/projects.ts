@@ -30,6 +30,20 @@ export const projects: Project[] = [
         github: "https://github.com/vasibreban27/Sign-Detection-Image-Processing",
     },
     {
+        title: "TACO Trash Instance Segmentation",
+        description:
+            "Deep Learning project for instance segmentation of waste objects using the TACO dataset. Trains and evaluates Mask R-CNN models to accurately detect and segment individual trash instances for automated waste recognition.",
+        tags: ["Python", "PyTorch", "Mask R-CNN", "Computer Vision", "Deep Learning"],
+        github: "https://github.com/vasibreban27/taco-trash-instance-segmentation",
+    },
+    {
+        title: "Global Life Expectancy ML",
+        description:
+            "Machine Learning project analyzing global life expectancy trends through data preprocessing, feature engineering, and predictive modeling. Compares multiple regression models to identify key factors influencing life expectancy.",
+        tags: ["Python", "Scikit-learn", "Pandas", "Machine Learning", "Data Analysis"],
+        github: "https://github.com/vasibreban27/global-life-expectancy-ml",
+    },
+    {
         title: "CabanaAnuca",
         description:
             "Full Stack booking platform for a mountain resort. Supports online reservations, Stripe-based payments, automated email confirmations, and an integrated Google Maps view.",
